@@ -1,0 +1,37 @@
+{
+  "name": "mern-refresher",
+  "version": "1.0.0",
+  "description": "MERN Refresher Application - Basic public/private blog app",
+  "main": "app.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production node app",
+    "dev": "cross-env NODE_ENV=development nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hyecartoon/mern-refresher.git"
+  },
+  "author": "Harout Terterian",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hyecartoon/mern-refresher/issues"
+  },
+  "homepage": "https://github.com/hyecartoon/mern-refresher#readme",
+  "dependencies": {
+    "connect-mongo": "^4.6.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-handlebars": "^6.0.6",
+    "express-session": "^1.17.3",
+    "method-override": "^3.0.0",
+    "moment": "^2.29.4",
+    "mongoose": "^6.8.1",
+    "morgan": "^1.10.0",
+    "passport": "^0.6.0",
+    "passport-google-oauth20": "^2.0.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "nodemon": "^2.0.20"
+  }
+}
